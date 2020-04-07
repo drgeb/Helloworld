@@ -31,4 +31,4 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 
-jib.to.image="test"
+jib.to.image=archivesBaseName.toLowerCase() +':' + version
